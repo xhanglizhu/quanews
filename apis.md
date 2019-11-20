@@ -36,13 +36,41 @@
 ======
 最新列表
 
+接口：https://papi.jiemian.com/page/api/index/indexajax
+
+参数：
+```javascript
+{
+  page:1//页数
+}
+注意：
+返回结果jsonpReturn(ret)
+```
+
 好奇心
 =====
 最新列表
 
+接口：http://m.qdaily.com/mobile/homes/articlemore/1573692750.json
+根据时间戳来获取，返回结果中会有result.data.last_key作为下一页的时间戳。
+
 infoQ
 =====
-最新列
+最新列表
+
+接口：https://www.infoq.cn/public/v1/my/recommond
+
+参数：
+```javascript
+{
+  size:12,//页数
+  score:1574208000001//第一次请求不传，非首次请求最后一个返回结果
+}
+注意：payload方式传参。
+```
+
+
+
 
 
 
