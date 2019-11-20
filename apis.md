@@ -1,7 +1,10 @@
 
-##36氪
-###获取列表
-接口：https://36kr.com/pp/api/aggregation-entity?type=web_latest_article&per_page=10
+36氪
+======
+获取列表
+
+接口：https://36kr.com/pp/api/aggregation-entity
+
 参数：
 ```javascript
 {
