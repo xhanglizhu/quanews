@@ -69,6 +69,7 @@ a {
 }
 
 .textcenter {
+  padding: 0 50px;
   text-align: center;
   font-size: 18px;
   line-height: 2.2em;
